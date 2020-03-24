@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<SafeAreaView>
+  <ScrollViewMock
+    contentInsetAdjustmentBehavior="automatic"
+  >
+    <Header />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      testID="sayHi"
+    >
+      <Text>
+        Say Hi
+      </Text>
+    </TouchableOpacity>
+    <Text
+      testID="greeting"
+    />
+  </ScrollViewMock>
+</SafeAreaView>
+`;
